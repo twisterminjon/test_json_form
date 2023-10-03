@@ -1,0 +1,28 @@
+[
+  {
+    "value": "Welcome!",
+    "validation": "^hello",
+    "type": "text"
+  },
+  {
+    "value": "Washington",
+    "options": ["New York", "San Francisco", "New Orlean", "San Diego", "Ottawa", "Washington"],
+    "type": "dropdown",
+    "validation": "^San"
+  },
+  {
+    "default_value": 42,
+    "value": 1,
+    "min_value": 10,
+    "max_value": 50,
+    "type": "number"
+  },
+  {
+    "options": [1, 2, 3, 4, 5],
+    "type": "dropdown"
+  },
+  {
+    "value": false,
+    "type": "longtext"
+  }
+]
